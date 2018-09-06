@@ -45,11 +45,11 @@ function findTheCheese (foods) {
 
 function wordsWithB (words) {
   for(let i =0; i < words.length; i++) {
-    if (words.starsWith("b") => true/false
-      return words[i]
+    if (words[i].starsWith("b")) {
+      var newArray= []
+      newArray.push(words[i]);
     }
-    else if (words[i] === "bob" )
-    }
+    
   }
   return newArrayObjectWithWordsWithB 
 }
